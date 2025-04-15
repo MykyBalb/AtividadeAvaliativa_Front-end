@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 5</title>
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <h1>Supermecado do Cleiton</h1>
+    <form action="" id="reload">
+        <select id="selecao">
+            <option value="Café" selected>Café</option>
+            <option value="Leite">Leite</option>
+            <option value="Manteiga">Manteiga</option>
+            <option value="Biscoito">Biscoito</option>
+            <option value="Chocolate">Chocolate</option>
+            <option value="Água">Água</option>
+            <option value="Refrigerante">Refrigerante</option>
+            <option value="Arroz">Arroz</option>
+            <option value="Macarrão">Macarrão</option>
+            <option value="Feijão">Feijão</option>
+        </select><br>
+        <label for="quantidade">Quantidade do produto:</label>
+        <input type="number" name="" id="quantidade" placeholder="quantidade"><br>
+        <label for="preco">Preço do produto:</label>
+        <input type="number" name="" id="preco" placeholder="preço"><br><br>
+        <button type="submit" id="calcularCarrinho">Adicionar</button>
+        <button type="submit" id="finalizar">Finalizar Compra</button>
+    </form>
+    <div id="saidaCompra">
+        <h3>Carrinho</h3>
+        <ul style="list-style-type: none;" id="saida"></ul>
+    </div>
+</body>
+</html>
